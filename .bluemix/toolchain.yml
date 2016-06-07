@@ -111,7 +111,7 @@ dra:
   service_id: draservicebroker
   parameters:
     name: "Hi Umesh"
-    json: $file(dra.json)
+    content: $file(dra.json)
 
 #Sauce Labs
 test:
