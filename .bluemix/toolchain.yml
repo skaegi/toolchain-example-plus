@@ -109,9 +109,6 @@ orders-api-build:
 #Deploy Risk Analytics
 dra:
   service_id: draservicebroker
-  parameters:
-    name: "Hi Umesh"
-    content: $file(dra.json)
 
 #Sauce Labs
 test:
